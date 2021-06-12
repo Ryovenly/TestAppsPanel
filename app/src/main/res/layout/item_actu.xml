@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivActu"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTitleActu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Et voluptates maxime"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_DescriptionActu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nostrum aut unde et voluptas. Quasi atque non quae porro est sequi vitae tempore. Quasi quia ut possimus. Qui corrupti consectetur illo eum dolorum voluptates ipsam dolorem.\n\nPossimus voluptatem maxime corrupti expedita. Dolor rerum et et architecto enim rerum modi voluptatem. Et esse cumque qui. Et voluptatem et totam veniam quas.\n\nDeleniti tenetur quis tempore doloribus. Doloremque ipsa illo repudiandae ex earum.\n\nQuod porro voluptatem recusandae expedita qui. Possimus et enim consequuntur. Sunt nobis deserunt repellendus est totam rerum dolores voluptate. Vel aspernatur illum quasi non odio quod laudantium.\n\nDolor eveniet adipisci quis quisquam ipsa voluptatem. Iusto aut aut enim qui molestiae. Nesciunt cupiditate ut eaque similique quod aut. Numquam qui tempora aut cum eligendi numquam. Est dicta est quia mollitia beatae reiciendis blanditiis delectus" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvDateActu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Aujourd'hui" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
