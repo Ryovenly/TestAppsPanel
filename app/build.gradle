@@ -2,7 +2,6 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'kotlin-android-extensions'
-    id 'kotlin-kapt'
 }
 
 android {
@@ -48,9 +47,5 @@ dependencies {
     implementation "com.squareup.okhttp3:okhttp:4.5.0"
     implementation 'com.google.code.gson:gson:2.8.6'
 
-    //GLIDE
-
-    kapt 'com.github.bumptech.glide:compiler:4.8.0'
-    kapt "android.arch.lifecycle:compiler:1.1.1"
 
 }

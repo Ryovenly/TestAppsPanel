@@ -80,7 +80,7 @@ class ActusFragment : Fragment() {
                       // val dest = actus.data?.get(1)?.description
 
 
-                       rvActus.adapter?.notifyDataSetChanged()
+                      // rvActus.adapter?.notifyDataSetChanged()
                    } catch (e:JSONException){
                        e.printStackTrace()
                    }
